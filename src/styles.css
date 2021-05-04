@@ -1,0 +1,42 @@
+.App {
+  text-align: center;
+}
+.text {
+  font-size: 35px;
+  font-weight: bold;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  text-align: center;
+  justify-content: center;
+}
+.para {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  text-align: justify;
+  /* justify-content: center; */
+  justify-content: justify;
+}
+.btn {
+  font-size: 20px;
+
+}
+.box {
+  padding: 20px;
+}
+.box1 {
+  background-color: rgb(27, 68, 114);
+  border-radius: 5px;
+  color: white;
+}
+.section {
+  margin-top: 30px;
+}
+.imagedog{
+  width: max-content;
+}
+@media screen and (max-width: 469px) {
+  .imagedog {
+    margin-left: 17%;
+  }
+  .btn {
+    margin-left: 34%;
+  }
+}
